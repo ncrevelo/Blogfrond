@@ -1,0 +1,68 @@
+.home-container {
+    padding: 20px;
+  }
+  
+  .add-post-button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-post-button:hover {
+    background-color: darkgreen;
+  }
+  
+  .posts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .post-card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+    transition: box-shadow 0.3s;
+  }
+  
+  .post-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .read-more-button, .delete-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .read-more-button {
+    background-color: blue;
+  }
+  
+  .read-more-button:hover {
+    background-color: darkblue;
+  }
+  
+  .delete-button {
+    background-color: red;
+  }
+  
+  .delete-button:hover {
+    background-color: darkred;
+  }
+  

@@ -1,0 +1,14 @@
+/* src/pages/PostDetail.css */
+.post-detail-container {
+    padding: 20px;
+  }
+  
+  .post-detail-container h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .post-detail-container p {
+    font-size: 1rem;
+  }
+  
